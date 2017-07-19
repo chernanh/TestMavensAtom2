@@ -1,4 +1,5 @@
 public with sharing class CandidateController {
+  //Adding a test comment
     @AuraEnabled
     public static ContactPagedResult findAll(Decimal pageNumber) {
         Integer pageSize = 16;
