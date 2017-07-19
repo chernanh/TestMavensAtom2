@@ -1,5 +1,5 @@
 public class ApexSharingCallReport{
-
+//adding comment from feature dev01-feat01
     public static void shareCallReportSections(Map<Id, User> tcUsrMap){
         List<Id> insiderIds = new List<Id>();
         Set<Id> confidentialIds = new Set<Id>();
@@ -14,10 +14,10 @@ public class ApexSharingCallReport{
             tc2Share.RowCause = Schema.TestCust2__Share.RowCause.Manual;
             tc2ShareList.add(tc2Share);
         }
-        
+
         insert tc2ShareList;
         
     }
-    
-   
+
+
 }
