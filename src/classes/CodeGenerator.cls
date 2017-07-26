@@ -1,5 +1,6 @@
 global class CodeGenerator implements Process.Plugin
 {    
+	//Adding comment for last02-feat01 2
     global Process.PluginResult invoke(Process.PluginRequest request)
     {   
         Map<String, Object> result = new Map<String, Object>();  
